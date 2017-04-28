@@ -100,6 +100,13 @@ Invokes eslint validation based on rules defined in the `.eslintrc` file.
 
 ## Changelog
 
+### 0.7.7
+
+**Bug Fix**
+
+- All S3 object names will be pushed with forward-slashes, fixing an issue with Windows systems pushing nested directories
+
+
 ### 0.7.3
 
 **API Additions**
